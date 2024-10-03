@@ -10,7 +10,11 @@
         "doctrine/orm": "2.*",
         "doctrine/cache": "2.*",
         "doctrine/annotations": "1.*",
-        "symfony/cache": "6.*"
+        "symfony/cache": "6.*",
+        "psr/http-factory": "1.*",
+        "psr/http-client": "1.*",
+        "psr/simple-cache": "3.*",
+        "shipmonk/input-mapper": "0.*"
     },
     "autoload": {
         "psr-4": {
