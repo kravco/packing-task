@@ -1,0 +1,10 @@
+includes:
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+parameters:
+    excludePaths:
+        - src/generated
+    featureToggles:
+        bleedingEdge: true
+    level: max
+    paths:
+        - src

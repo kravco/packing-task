@@ -20,5 +20,11 @@
         "psr-4": {
             "App\\": "src/"
         }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "1.*",
+        "phpstan/phpstan-strict-rules": "^1.6",
+        "http-interop/http-factory-guzzle": "^1.2",
+        "guzzlehttp/guzzle": "^7.8"
     }
 }
